@@ -1,0 +1,67 @@
+:root{
+
+    --yellow:yellow;
+    --skyblue:skyblue;
+
+}
+
+body{
+    background-image: url("media/bg1.jpeg");
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgb(0,0,0,.2);
+    margin:auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 3rem;
+    width:fit-content ;
+    height: 50vh;
+    justify-content: center;
+}
+
+#submit{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(244, 41, 41, 0.3);
+    border:1px groove rgba(237, 52, 52,0.3);
+    font-size: 1rem;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+
+
+input{
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input:focus{
+    background-color:rgba(195, 205, 132, 0.2);
+}
+
+#result{
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+input:focus{
+    clear: both;
+}
